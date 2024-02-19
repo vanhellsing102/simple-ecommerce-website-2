@@ -1,0 +1,178 @@
+*
+{
+    margin: 0%;
+    border: 0%;
+    box-sizing: border-box;
+}
+.main-header
+{
+    background-image: url('banner/banner1.png');
+    height: 680px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-header-content
+{
+    padding: 250px 200px 0px 800px;
+    text-align: end;
+}
+.header-title
+{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.header-text
+{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+.main-header button
+{
+    padding: 8px 18px;
+    color: white;
+    font-weight: bold;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 3px;
+}
+
+.my-failures
+{
+    margin: 50px 200px 50px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.failures-content
+{
+    padding: 20px 120px;
+}
+.failures-content ul li
+{
+    margin-bottom: .7rem;
+    list-style: none;
+    margin-left: -20px;
+}
+.failures-content ul li i
+{
+    color: blue;
+    margin-right: 5px;
+}
+.failures-image img
+{
+    height: 500px;
+}
+.failures-title
+{
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+.failures-text
+{
+    margin-bottom: 1rem;
+    font-size: 17px;
+}
+.plans
+{
+    margin: 100px 200px 50px 200px;
+    text-align: center;
+}
+.plans-card
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.plans-card h2
+{
+    margin: 0px 0px 5px 0px;
+}
+
+
+.contact
+{
+    margin: 100px 200px 100px 200px;
+    position: relative;
+}
+.contact img
+{
+    width: 950px;
+    height: 200px;
+}
+.contact .blue
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contact .watch
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .3;
+}
+.contact .text
+{
+    z-index: 66;
+    position: absolute;
+    margin: 50px 50px;
+}
+.contact .text h1
+{
+    font-size: 30px;
+    width: 250px;
+    margin-bottom: 1rem;
+    color: #F15B22;
+}
+.contact .text button
+{
+    padding: 8px 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+footer
+{
+    margin: 400px 00px;
+    background-color: black;
+}
+.main-footer
+{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 200px;
+    padding: 100px 0px;
+}
+.main-footer h1
+{
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+.future p
+{
+    width: 400px;
+    margin-bottom: .9rem;
+}
+.future .icon img
+{
+    width: 25px ;
+    margin-right: 5px;
+}
+.subscribe input
+{
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+}
+.subscribe button
+{
+    padding: 10px 20px;
+    border: none;
+    color: #F15B22;
+}
